@@ -43,7 +43,7 @@ class Fragment2 : Fragment() {
         //navigate to fragment 3
         val button = view.findViewById<Button>(R.id.fragment_3_btn)
 
-        button.setOnClickListener {
+        button.setOnClickListener { 
 
             //To send data from fragment 2 to fragment 3
             val frag3data: EditText = view.findViewById(R.id.data2)
